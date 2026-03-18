@@ -1,5 +1,7 @@
 # eXo-Platform - Arbitrary-File-Read
 
+Reference : https://www.exoplatform.com/
+
 The eXo Platform CMS is vulnerable to an arbitrary file read as an authenticated user, by abusing the zip import functionality in the "Drive" module.
 
 ## POC
@@ -29,3 +31,4 @@ eXo CMS offers a drive module, which allow an authenticated user to import and e
 <br>
 
 ![plot](./symbolic_zip_file_read.png)
+
